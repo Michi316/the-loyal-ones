@@ -1,3 +1,4 @@
+localStorage.clear();
 // Memoria de Productos
 let productos = JSON.parse(localStorage.getItem('inventarioTheLoyalOnes')) || [];
 
