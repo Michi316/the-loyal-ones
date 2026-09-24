@@ -6,10 +6,7 @@ let pedidos = JSON.parse(localStorage.getItem('historialPedidosTheLoyalOnes')) |
 let pedidosNoVistos = 0;
 
 if (productos.length === 0) {
-    productos = [
-        { id: 1, codigo: "PER-01", nombre: "Perfume Elegance", precio: 25.00, imagen: "https://via.placeholder.com/200?text=Perfume", agotado: false },
-        { id: 2, codigo: "SAB-01", nombre: "Sábana Matrimonial", precio: 15.00, imagen: "https://via.placeholder.com/200?text=Sabana", agotado: false }
-    ];
+    productos = [];
     guardarEnMemoria();
 }
 
